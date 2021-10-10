@@ -28,3 +28,13 @@ use App\Http\Livewire\Form;
 Route::get('form',Form::class)->name('form');
 use App\Http\Livewire\Action;
 Route::get('action',Action::class)->name('action');
+
+
+use App\Http\Livewire\Product;
+Route::get('product',Product::class)->name('product');
+
+use App\Http\Livewire\Contact;
+Route::get('contact',Contact::class)->name('contact');
+
+Route::get('users',User::class)->name('users');
+
